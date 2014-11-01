@@ -5,24 +5,18 @@ anchor: vagrant
 
 ## Vagrant {#vagrant_title}
 
-Running your application on different environments in development and production can lead to strange bugs 
-popping up when you go live. It's also tricky to keep different development environments up to date with the same 
-version for all libraries used when working with a team of developers. 
+## 强烈推荐!!!
 
-If you are developing on Windows and deploying to Linux (or anything non-Windows) or are developing in a team, you 
-should consider using a virtual machine. This sounds tricky, but by using [Vagrant][vagrant] you can set up a simple 
-virtual machine with only a few steps. These base boxes can then be set up manually, or you can use "provisioning" 
-software such as [Puppet][puppet] or [Chef][chef] to do this for you. Provisioning the base box is a great way to 
-ensure that multiple boxes are set up in an identical fashion and removes the need for you to maintain complicated 
-"set up" command lists. You can also "destroy" your base box and recreate it without many manual steps, making it
-easy to create a "fresh" installation.
+为了解决不同系统、不同开发环境带来的差异，Vagrant运势而生。
 
-Vagrant creates folders for sharing your code between your host and your virtual machine, which means that you can 
-create and edit your files on your host machine and then run the code inside your virtual machine.
+Vagrant配合虚拟机一起使用，使得Windows作为开发系统的用户，也可以获得与线上Linux机器一样的环境。[Vagrant][vagrant]可以通过简单命令来
+手动创建和管理虚拟机，当然也允许一些自动管理工具的使用，如：[Puppet][puppet] 或 [Chef][chef]。
 
-### A little help
+Vagrant 负责同步本地代码到虚拟机，这样你可以本地编写代码，通过虚拟机来执行。
 
-If you need a little help to start using Vagrant there are some services that might be useful:
+### 一些指南
+
+Vagrant的使用帮助:
 
 - [Rove][rove]: service that allows you to pre-generate typical Vagrant builds, PHP among the options. The
   provisioning is made with Chef.

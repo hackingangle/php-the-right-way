@@ -5,33 +5,27 @@ anchor: mac_setup
 
 ## Mac Setup  {#mac_setup_title}
 
-OS X comes prepackaged with PHP but it is normally a little behind the latest stable. Mountain Lion has 
-5.3.10, Mavericks has 5.4.17 and Yosemite has 5.5.9, but with PHP 5.6 out that is often not good enough.
+OS X 操作系统内置了PHP。Mountain：5.3.10；Mavericks：5.4.17；Yosemite：5.5.9。
 
-There are multiple ways to install PHP on OS X.
+OS X 操作系统其他安装方式：
 
-### Install PHP via Homebrew
+### Homebrew安装
 
-[Homebrew](http://brew.sh/) is a powerful package manager for OS X, which can help you install PHP and 
-various extensions easily. [Homebrew PHP] is a repository that contains PHP-related "formulae" for Homebrew, 
-and will let you install PHP.
+[Homebrew](http://brew.sh/)是OSX下的一个给力的包管理器，可以方便安装PHP和其他的拓展。[Homebrew PHP]是GITHUB上的资源库。
 
-At this point, you can install `php53`, `php54`, `php55` or `php56` using the `brew install` command, and switch between them by modifying your `PATH` variable. 
+可以通过`brew install`命令安装`php53`,`php54`,`php55`,`php56`，通过修改`PATH`变量来切换默认的PHP。
 
-### Install PHP via phpbrew
+### phpbrew安装
 
-[phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two
-different applications/projects require different versions of PHP, and you are not using virtual machines.
+[phpbrew]为一个可以管理多个PHP版本的工具。使用环境为：本地上的应用需要两个不同版本，而且没有使用虚拟机。
 
-### Compile from Source
+### 编译源码
 
-Another option that gives you control over the version of PHP you install, is to [compile it yourself][mac-compile]. 
-In that case be sure to have installed either Xcode or Apple's substitute ["Command Line Tools for XCode"] 
-downloadable from Apple's Mac Developer Center.
+按照这个教程：[compile it yourself][mac-compile]来本地编译。前提是：["Command Line Tools for XCode"] 这个需要安装下。
 
-### All-in-One Installers 
+### 捆绑安装器
 
-The solutions listed above mainly handle PHP itself, and do not supply things like Apache, Nginx or a SQL server. "All-in-one" solutions such as [MAMP][mamp-downloads] and [XAMPP][xampp] will install these other bits of software for you and tie them all together, but ease of setup comes with a trade-off of flexibility.
+OS X 系统下提供了一些安装器，来捆绑安装PHP的环境。官方推荐的：[MAMP][mamp-downloads] 和 [XAMPP][xampp]。
 
 [Homebrew]: http://brew.sh/
 [Homebrew PHP]: https://github.com/Homebrew/homebrew-php#installation

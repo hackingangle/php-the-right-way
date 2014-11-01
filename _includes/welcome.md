@@ -1,24 +1,14 @@
-# Welcome
+# welcome
 
-There's a lot of outdated information on the Web that leads new PHP users astray,
-propagating bad practices and insecure code. _PHP: The Right Way_ is an easy-to-read,
-quick reference for PHP popular coding standards, links to authoritative tutorials
-around the Web and what the contributors consider to be best practices at the present
-time.
+由于PHP版本更替等原因，当今网上存在许多不好的PHP代码，这会误导PHP初学者。_PHP禅_ 为学习者提供一个最佳代码实践和规范。
 
-_There is no canonical way to use PHP_. This website aims to introduce new PHP
-developers to some topics which they may not discover until it is too late, and aims
-to give seasoned pros some fresh ideas on those topics they've been doing for years
-without ever reconsidering. This website will also not tell you which tools to use, but
-instead offer suggestions for multiple options, when possible explaining the differences
-in approach and use-case.
+_PHP本身没有提供使用的标准_。我们为菜鸟开发者和老鸟开发者提供了一些容易忽视的盲点。与此同时，我们提供了一些工具的使用建议。
 
-This is a living document and will continue to be updated with more helpful information
-and examples as they become available.
+这是一个在线的、持续更新的文档，总是提供一些当下最有实践意义的信息。
 
-## Translations
+## translations
 
-_PHP: The Right Way_ is (or soon will be) translated into many different languages:
+_PHP: 禅_ 被翻译成了许多语言：
 
 * [English](http://www.phptherightway.com)
 * [Bulgarian](http://bg.phptherightway.com/)
@@ -39,16 +29,15 @@ _PHP: The Right Way_ is (or soon will be) translated into many different languag
 * [Turkish](http://hkulekci.github.io/php-the-right-way/)
 * [Ukrainian](http://iflista.github.com/php-the-right-way/)
 
-## How to Contribute
+## how to contribute
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][1]
+一起来为新的PHP开发者做出最好的资源！[做出我的贡献][1]
 
-## Spread the Word!
+## spread the word
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP developers
-know where to find good information!
+_PHP: 禅_ 有了自己的LOGO，放到你的网站上，让全世界PHP开发者都知道他吧！
 
-[See Banner Images][2]
+[查看LOGO][2]
 
 [1]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
 [2]: /banners.html
